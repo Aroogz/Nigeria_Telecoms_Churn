@@ -1,0 +1,26 @@
+Interesting variables:
+	- Total Onnet spend
+	- Total Offnet spend
+	- Customer Tenure in Months
+	- Network type subscription in Month 1
+	- Network type subscription in Month 2
+	- Total Call centre complaint calls
+	- Most Loved Competitor network in in Month 1
+	- Most Loved Competitor network in in Month 2
+
+FE:
+	- bin 
+
+data details:
+	- shape: 1401, 16
+
+
+returns:
+	- too many NAs removed might not be worth it
+	- maybe remove the feature instead
+
+
+new tool:
+	- to pick out numeric features only for a quick plot
+	- function that takes numerical columns and draws a distribution 
+	each
